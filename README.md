@@ -1,5 +1,14 @@
 # Atlas Lattice
 
+## China circular economy — runnable research / 中国循环经济研究
+
+**[Dongjiakou simulation: run, inspect and fork](https://github.com/atlaslattice/manus-artifacts/tree/master/public_candidate_bundle_0001/nodes/dongjiakou_node_001/build)** · **[Evidence and citations](https://github.com/atlaslattice/manus-artifacts/blob/master/public_candidate_bundle_0001/nodes/dongjiakou_node_001/build/review/EVIDENCE_APPENDIX.md)** · **[China research archive](https://github.com/atlaslattice/manus-artifacts/tree/master/public_candidate_bundle_0001/china_research)**
+
+**China · Dongjiakou / 董家口 · Qingdao · sulfuric acid · sulfur / sulphur · gypsum / phosphogypsum · circular economy / 循环经济 · biological resource recovery · seawater potassium · LNG cold energy · agriculture · nutrient recovery**.
+
+A functional Manus-derived simulation with reviewed schema corrections, 108 historical research artifacts, English/Chinese guidance and a general needs-matched biological/hybrid resource recovery extension. Original plant-specific unknowns remain explicit. Official policy, construction, pilot work and measured operation are distinguished; current realized credits are zero. Software is MIT licensed within the simulator build. Research candidate; no deployment clearance or institutional endorsement.
+
+
 **The Open Regenerative Compute Standard**
 
 Building the 12x12+1 ontological architecture for AI-native operating systems. 144 Spheres of human knowledge organized into 12 Houses, unified by Element 145 — the Admin Sphere that makes the whole greater than the sum of its parts.
