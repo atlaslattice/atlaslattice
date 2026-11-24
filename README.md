@@ -1,57 +1,63 @@
 # Atlas Lattice
 
-## China circular economy — runnable research / 中国循环经济研究
+Source-linked research and software for organizing knowledge, testing ideas and
+building useful tools. Atlas Intelligence is the application and integration
+entry point; related repositories keep their own source history and release state.
 
-**[Dongjiakou simulation: run, inspect and fork](https://github.com/atlaslattice/manus-artifacts/tree/master/public_candidate_bundle_0001/nodes/dongjiakou_node_001/build)** · **[Evidence and citations](https://github.com/atlaslattice/manus-artifacts/blob/master/public_candidate_bundle_0001/nodes/dongjiakou_node_001/build/review/EVIDENCE_APPENDIX.md)** · **[China research archive](https://github.com/atlaslattice/manus-artifacts/tree/master/public_candidate_bundle_0001/china_research)**
+## Start here
 
-**China · Dongjiakou / 董家口 · Qingdao · sulfuric acid · sulfur / sulphur · gypsum / phosphogypsum · circular economy / 循环经济 · biological resource recovery · seawater potassium · LNG cold energy · agriculture · nutrient recovery**.
+| I want to… | Go to | What you will find |
+| --- | --- | --- |
+| Understand the application and run local checks | [Atlas Intelligence](https://github.com/atlaslattice/Atlas-Intelligence) | Application source, program modules and development commands |
+| Work on provider adapters and interoperability | [Atlas Lattice Providers](https://github.com/atlaslattice/atlas-lattice-providers) | Integration contracts, offline components and review gates |
+| Inspect shared task and evidence contracts | [Noosphere Archive](https://github.com/atlaslattice/noosphere-archive) | SwarmHub contract tools, source references and historical records |
+| Explore research and reproducible candidates | [Manus Artifacts](https://github.com/atlaslattice/manus-artifacts) | Research packages with their own evidence, licenses and limitations |
+| Follow the compute-standard work | [Open Regenerative Compute Standard](https://github.com/atlaslattice/open-regenerative-compute-standard) | Standard proposals, supporting research and review history |
+| Trace earlier lattice implementations | [Aluminum OS](https://github.com/atlaslattice/aluminum-os) and [Element 145](https://github.com/atlaslattice/element-145) | Earlier architecture, protocol and implementation sources |
 
-A functional Manus-derived simulation with reviewed schema corrections, 108 historical research artifacts, English/Chinese guidance and a general needs-matched biological/hybrid resource recovery extension. Original plant-specific unknowns remain explicit. Official policy, construction, pilot work and measured operation are distinguished; current realized credits are zero. Software is MIT licensed within the simulator build. Research candidate; no deployment clearance or institutional endorsement.
+Use each repository's default branch for its current checked-in source. An open
+pull request is a separate candidate; its tests and deployment status belong to
+that exact revision.
 
+## Find work without getting lost
 
-**The Open Regenerative Compute Standard**
+- [Atlas Intelligence issues](https://github.com/atlaslattice/Atlas-Intelligence/issues) for application and integration problems.
+- [Provider issues](https://github.com/atlaslattice/atlas-lattice-providers/issues) for adapter and interoperability work.
+- [Noosphere issues](https://github.com/atlaslattice/noosphere-archive/issues) for shared task and evidence contracts.
+- [Open pull requests](https://github.com/pulls?q=is%3Apr+is%3Aopen+user%3Aatlaslattice) for proposed changes across the account.
+- [Repository directory](https://github.com/atlaslattice?tab=repositories) for the wider collection.
 
-Building the 12x12+1 ontological architecture for AI-native operating systems. 144 Spheres of human knowledge organized into 12 Houses, unified by Element 145 — the Admin Sphere that makes the whole greater than the sum of its parts.
+Before opening another task, search for an existing issue or pull request. Link
+the source revision, describe the observed problem and give a reproducible way
+to check the result. Preserve useful alternatives and objections in the discussion.
 
----
+## Read progress precisely
 
-## Core Repositories
+| Status | What it establishes |
+| --- | --- |
+| Proposed | A design or change is available for review. |
+| Locally tested | The recorded checks passed in the stated local environment. |
+| Checked in | The source is stored in a named commit or branch. |
+| CI passed | Named hosted checks passed for the exact commit. |
+| Merged | The change is incorporated into its target branch. |
+| Deployed and verified | A named environment has the release and its relevant behavior was observed. |
 
-| Repository | Description |
-|---|---|
-| [**aluminum-os**](https://github.com/atlaslattice/aluminum-os) | Master ontology: 12 Houses x 12 Spheres + Element 145. 550+ files defining the complete knowledge lattice. |
-| [**element-145**](https://github.com/atlaslattice/element-145) | Installable Python package: Lattice Context Protocol, SHUGS operator, AI integrations, agent scaffolds. |
-| [**orcs-repo**](https://github.com/atlaslattice/orcs-repo) | Open Regenerative Compute Standard governance: ORC documents, Pantheon Council reviews, Build Plan. |
+These states are recorded separately. A simulation, a source mapping or a test
+count does not by itself establish a real-world scientific result.
 
-## Component Repositories
+## Lattice and research context
 
-| Repository | Description |
-|---|---|
-| [**sheldongemini-GPI**](https://github.com/atlaslattice/sheldongemini-GPI) | Sheldon Gemini chat interface (React + Gemini 2.5 Flash) |
-| [**sheldonbrain-rag-api**](https://github.com/atlaslattice/sheldonbrain-rag-api) | Persistent memory RAG backend (Pinecone + Cloud Run) |
-| [**aluminum-os-v3**](https://github.com/atlaslattice/aluminum-os-v3) | Rust implementations: Pantheon Council, Noosphere, Sheldonbrain, Manus Core |
+Ariadne's source-qualified knowledge coordinates use 12 Houses, 144 Spheres and
+1,728 nodes. Element 145 and META145 are coordination concepts. Historical
+12×12+1 implementations retain their own definitions; cross-system mappings need
+an identified source edition and an explicit relationship.
 
-## The Architecture
+Research example: [Dongjiakou simulation and build](https://github.com/atlaslattice/manus-artifacts/tree/master/public_candidate_bundle_0001/nodes/dongjiakou_node_001/build),
+[evidence appendix](https://github.com/atlaslattice/manus-artifacts/blob/master/public_candidate_bundle_0001/nodes/dongjiakou_node_001/build/review/EVIDENCE_APPENDIX.md)
+and [China research archive](https://github.com/atlaslattice/manus-artifacts/tree/master/public_candidate_bundle_0001/china_research).
+Treat each package's measured results, assumptions and unresolved questions separately.
 
-```
-         Element 145 (Admin Sphere)
-              ┌─────┐
-              │ E145 │ ← Cross-domain synthesis
-              └──┬──┘
-    ┌────────────┼────────────┐
-    │            │            │
-┌───┴───┐  ┌───┴───┐  ┌───┴───┐
-│  H01  │  │  H02  │  │ ...   │  12 Houses
-│12 Sph.│  │12 Sph.│  │12 Sph.│  144 Spheres total
-└───────┘  └───────┘  └───────┘
-```
-
-**N=145 is mathematically optimal.** The SHUGS operator (Von Mangoldt-Sheldon HSUF) demonstrates statistically significant improvement at N=145 vs N=144 (p=0.0154, K=20 ensemble). Element 145 is a structurally necessary coupling node, not decoration.
-
-## Governance
-
-All work governed by the **Pantheon Council** — a multi-LLM federated governance body with 12 seats representing different AI perspectives. All inventions attributed to Dave per the Atlas Lattice Attribution Principle.
-
----
-
-*Build Plan v3.14 | Doctrine D-84: Filesystem-as-Ontology | Constitutional OS*
+Architectural attribution and licenses remain with their original sources. This
+navigation update does not change a license, a governance edition or access rights.
+The [previous profile overview](https://github.com/atlaslattice/atlaslattice/blob/2ea6f344bfb31ccd91dbca33a16eddf347ae6627/README.md)
+remains available as an exact historical snapshot, including its experimental claims.
